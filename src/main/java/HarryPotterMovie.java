@@ -3,4 +3,8 @@ public class HarryPotterMovie extends Movie{
         super(name);
     }
 
+    public String printSummary() {
+        return "Harry Potter kills voldemort!";
+    }
+
 }
