@@ -6,5 +6,10 @@ public class Movie {
 
     public Movie (String name) {
         this.name = name;
+        characters = new ArrayList<>();
+    }
+
+    public int countCharacters() {
+        return this.characters.size();
     }
 }
