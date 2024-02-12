@@ -12,7 +12,7 @@ public class HarryPotterMovieTest {
     }
 
     @Test
-    public void canPrintSummary() {
+    public void canPrintSequelSummary() {
         assertThat(harryPotterMovie.printSummary()).isEqualTo("Harry Potter kills voldemort!");
     }
 }
