@@ -7,7 +7,7 @@ public class PhilosophersStone extends HarryPotterMovie{
     public PhilosophersStone(String name){
         super(name);
     }
-    
+
     public String printSummary() {
         return "first movie.";
     }
