@@ -12,4 +12,9 @@ public class Movie {
     public int countCharacters() {
         return this.characters.size();
     }
+
+    public void addCharacter(String name) {
+        this.characters.add(name);
+    }
+
 }

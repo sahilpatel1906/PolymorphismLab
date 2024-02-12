@@ -16,4 +16,10 @@ public class MovieTest {
         assertThat(movie.countCharacters()).isEqualTo(0);
     }
 
+    @Test
+    public void canAddCharacter() {
+        movie.addCharacter("Harry");
+        assertThat(movie.countCharacters()).isEqualTo(1);
+    }
+
 }
