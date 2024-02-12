@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Movie {
+public abstract class Movie {
     protected String name;
     protected ArrayList<String> characters;
 

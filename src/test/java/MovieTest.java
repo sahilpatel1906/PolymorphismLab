@@ -8,7 +8,7 @@ public class MovieTest {
 
     @BeforeEach
     public void setUp() {
-        movie = new Movie("movie");
+        movie = new PhilosophersStone("Harry Potter and Philosophers Stone");
     }
 
     @Test

@@ -8,11 +8,11 @@ public class HarryPotterMovieTest {
 
     @BeforeEach
     public void setUp() {
-        harryPotterMovie = new HarryPotterMovie("Harry Potter");
+        harryPotterMovie = new PhilosophersStone("Harry Potter and Philosophers Stone");
     }
 
     @Test
     public void canPrintSequelSummary() {
-        assertThat(harryPotterMovie.printSummary()).isEqualTo("Harry Potter kills voldemort!");
+        assertThat(harryPotterMovie.printSummary()).isEqualTo("first movie.");
     }
 }

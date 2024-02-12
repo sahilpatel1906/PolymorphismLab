@@ -1,4 +1,4 @@
-public class HarryPotterMovie extends Movie{
+public abstract class HarryPotterMovie extends Movie{
     public HarryPotterMovie(String name) {
         super(name);
     }
