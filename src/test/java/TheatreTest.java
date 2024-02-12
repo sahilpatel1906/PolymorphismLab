@@ -18,4 +18,9 @@ public class TheatreTest {
         assertThat(theatre.countMovies()).isEqualTo(0);
     }
 
+    @Test
+    public void canAddMovie() {
+        theatre.addMovie(movie);
+        assertThat(theatre.countMovies()).isEqualTo(1);
+    }
 }

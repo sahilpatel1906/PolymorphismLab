@@ -12,4 +12,9 @@ public class Theatre {
     public int countMovies() {
         return this.movies.size();
     }
+
+    public void addMovie(Movie movie) {
+        this.movies.add(movie);
+    }
+
 }
