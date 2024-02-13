@@ -11,4 +11,8 @@ public class PhilosophersStone extends HarryPotterMovie{
     public String printSummary() {
         return "first movie.";
     }
+
+    public String printSummary(int movieNumber) {
+        return "Harry Potter Movie " + movieNumber;
+    }
 }

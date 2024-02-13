@@ -15,4 +15,9 @@ public class PhilosophersStoneTest {
     public void canPrintMovieSpecificSummary() {
         assertThat(philosophersStone.printSummary()).isEqualTo("first movie.");
     }
+
+    @Test
+    public void canPrintOverloadedSummary() {
+        assertThat(philosophersStone.printSummary(1)).isEqualTo("Harry Potter Movie 1");
+    }
 }

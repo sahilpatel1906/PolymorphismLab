@@ -11,4 +11,6 @@ public class GobletOfFire extends HarryPotterMovie {
     public String printSummary(){
         return "A bunch of games.";
     }
+
+
 }

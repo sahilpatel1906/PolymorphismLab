@@ -22,4 +22,9 @@ public class MovieTest {
         assertThat(movie.countCharacters()).isEqualTo(1);
     }
 
+    @Test
+    public void canGetSellPrice() {
+        assertThat(movie.getSellPrice()).isEqualTo(10);
+    }
+
 }
