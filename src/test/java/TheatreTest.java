@@ -9,7 +9,7 @@ public class TheatreTest {
 
     @BeforeEach
     public void setUp() {
-        movie = new GobletOfFire("Harry Potter and Goblet of Fire");
+        movie = new HarryPotterMovie("Harry Potter and Goblet of Fire",4);
         theatre = new Theatre("theatre");
     }
 
